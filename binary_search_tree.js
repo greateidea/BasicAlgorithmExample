@@ -1,4 +1,4 @@
-// 二叉树和二叉查找树，下面所有对树的操作可以封装在类里
+//二叉查找树，下面所有对树的操作可以封装在类里
 class Node {
 	constructor(data, leftChild, rightChild) {
 		this.data = data;
@@ -9,7 +9,7 @@ class Node {
 
 let search_tree_root = new Node(33);
 
-// 插入二叉搜索树节点
+// 插入二叉查找树节点
 function inseartNode(rootNode, nodeToInseart) {
 	if (!rootNode || !nodeToInseart) return;
 	
